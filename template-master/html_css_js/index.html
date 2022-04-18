@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="#" />
+    <title>A simple question</title>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <p>Bạn có 1 html structure như bên dưới:</p>
+
+    <p>Hãy update file style.css để thỏa mãn 3 điều kiện:</p>
+
+    <ol>
+      <li>
+        Với màn hình tối thiểu 992px, hiển thị tất cả các div có classB trên 1
+        dòng
+      </li>
+      <li>
+        Với màn hình từ 576px đến nhỏ hơn 992px, hiển thị mỗi div có classA trên
+        1 dòng (tổng cộng thành 3 dòng)
+      </li>
+      <li>
+        Với màn hình nhỏ hơn 576px, hiển thị tất cả các div có classB trên 1 cột
+        (cuối cùng thành 1 cột có 9 dòng)
+      </li>
+    </ol>
+
+    <p>
+      Trong cả 3 trường hợp, div có class="container" luôn luôn có width fill
+      màn hình.
+    </p>
+
+    <div class="container">
+      <div class="classA">
+        <div class="classB">1</div>
+        <div class="classB">2</div>
+        <div class="classB">3</div>
+      </div>
+      <div class="classA">
+        <div class="classB">4</div>
+        <div class="classB">5</div>
+        <div class="classB">6</div>
+      </div>
+      <div class="classA">
+        <div class="classB">7</div>
+        <div class="classB">8</div>
+        <div class="classB">9</div>
+      </div>
+    </div>
+  </body>
+</html>
